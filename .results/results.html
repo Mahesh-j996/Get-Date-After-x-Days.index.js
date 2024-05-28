@@ -10,9 +10,9 @@
             <script src="js/view.js"></script>
         </head><body><div id="test-results">{
   &quot;numFailedTestSuites&quot;: 1,
-  &quot;numFailedTests&quot;: 1,
+  &quot;numFailedTests&quot;: 2,
   &quot;numPassedTestSuites&quot;: 0,
-  &quot;numPassedTests&quot;: 2,
+  &quot;numPassedTests&quot;: 1,
   &quot;numPendingTestSuites&quot;: 0,
   &quot;numPendingTests&quot;: 0,
   &quot;numRuntimeErrorTestSuites&quot;: 0,
@@ -36,21 +36,21 @@
     &quot;unmatched&quot;: 0,
     &quot;updated&quot;: 0
   },
-  &quot;startTime&quot;: 1716822546606,
+  &quot;startTime&quot;: 1716872143977,
   &quot;success&quot;: false,
   &quot;testResults&quot;: [
     {
       &quot;leaks&quot;: false,
-      &quot;numFailingTests&quot;: 1,
-      &quot;numPassingTests&quot;: 2,
+      &quot;numFailingTests&quot;: 2,
+      &quot;numPassingTests&quot;: 1,
       &quot;numPendingTests&quot;: 0,
       &quot;numTodoTests&quot;: 0,
       &quot;openHandles&quot;: [],
       &quot;perfStats&quot;: {
-        &quot;end&quot;: 1716822552012,
-        &quot;runtime&quot;: 2803,
+        &quot;end&quot;: 1716872150162,
+        &quot;runtime&quot;: 3591,
         &quot;slow&quot;: false,
-        &quot;start&quot;: 1716822549209
+        &quot;start&quot;: 1716872146571
       },
       &quot;skipped&quot;: false,
       &quot;snapshot&quot;: {
@@ -62,13 +62,13 @@
         &quot;updated&quot;: 0,
         &quot;uncheckedKeys&quot;: []
       },
-      &quot;testFilePath&quot;: &quot;/tmp/e846ed10-2fc7-49d0-863c-c4ebf041bc83/.tests/index.test.js&quot;,
+      &quot;testFilePath&quot;: &quot;/tmp/830bde99-c5bb-400e-89c8-710b62895647/.tests/index.test.js&quot;,
       &quot;testResults&quot;: [
         {
           &quot;ancestorTitles&quot;: [
             &quot;Tests for Get Date After X Days&quot;
           ],
-          &quot;duration&quot;: 1,
+          &quot;duration&quot;: 57,
           &quot;failureDetails&quot;: [],
           &quot;failureMessages&quot;: [],
           &quot;fullName&quot;: &quot;Tests for Get Date After X DaysA file should present with the name &#x27;index.js&#x27;&quot;,
@@ -82,13 +82,25 @@
           &quot;ancestorTitles&quot;: [
             &quot;Tests for Get Date After X Days&quot;
           ],
-          &quot;duration&quot;: 2,
-          &quot;failureDetails&quot;: [],
-          &quot;failureMessages&quot;: [],
+          &quot;duration&quot;: 6,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read properties of undefined (reading &#x27;program&#x27;)&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read properties of undefined (reading &#x27;program&#x27;)\n    at getListOfTotalExports (/tmp/830bde99-c5bb-400e-89c8-710b62895647/.tests/utils.js:42:15)\n    at Object.&lt;anonymous&gt; (/tmp/830bde99-c5bb-400e-89c8-710b62895647/.tests/index.test.js:41:12)\n    at Object.asyncJestTest (/tmp/830bde99-c5bb-400e-89c8-710b62895647/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /tmp/830bde99-c5bb-400e-89c8-710b62895647/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/tmp/830bde99-c5bb-400e-89c8-710b62895647/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /tmp/830bde99-c5bb-400e-89c8-710b62895647/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read properties of undefined (reading &#x27;program&#x27;)\n    at getListOfTotalExports (/tmp/830bde99-c5bb-400e-89c8-710b62895647/.tests/utils.js:42:15)\n    at Object.&lt;anonymous&gt; (/tmp/830bde99-c5bb-400e-89c8-710b62895647/.tests/index.test.js:41:12)\n    at Object.asyncJestTest (/tmp/830bde99-c5bb-400e-89c8-710b62895647/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /tmp/830bde99-c5bb-400e-89c8-710b62895647/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/tmp/830bde99-c5bb-400e-89c8-710b62895647/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /tmp/830bde99-c5bb-400e-89c8-710b62895647/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41&quot;
+          ],
           &quot;fullName&quot;: &quot;Tests for Get Date After X DaysA Function should be exported from the file &#x27;index.js&#x27; using the default export method&quot;,
           &quot;location&quot;: null,
           &quot;numPassingAsserts&quot;: 0,
-          &quot;status&quot;: &quot;passed&quot;,
+          &quot;status&quot;: &quot;failed&quot;,
           &quot;title&quot;: &quot;A Function should be exported from the file &#x27;index.js&#x27; using the default export method&quot;,
           &quot;id&quot;: &quot;NJSCPKWIWO_TEST_2&quot;
         },
@@ -96,24 +108,20 @@
           &quot;ancestorTitles&quot;: [
             &quot;Tests for Get Date After X Days&quot;
           ],
-          &quot;duration&quot;: 3,
+          &quot;duration&quot;: 2,
           &quot;failureDetails&quot;: [
             {
               &quot;actual&quot;: &quot;&quot;,
-              &quot;error&quot;: {
-                &quot;matcherResult&quot;: {
-                  &quot;pass&quot;: false
-                }
-              },
+              &quot;error&quot;: {},
               &quot;expected&quot;: &quot;&quot;,
               &quot;matcherName&quot;: &quot;&quot;,
-              &quot;message&quot;: &quot;Error: expect(received).toMatch(expected)\n\nExpected pattern: /^5-5-2021$|^5-05-2021$/\nReceived string:  \&quot;5 - 5 - 2021\&quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: getDateAfterDays is not a function&quot;,
               &quot;passed&quot;: false,
-              &quot;stack&quot;: &quot;Error: expect(received).toMatch(expected)\n\nExpected pattern: /^5-5-2021$|^5-05-2021$/\nReceived string:  \&quot;5 - 5 - 2021\&quot;\n    at Object.&lt;anonymous&gt; (/tmp/e846ed10-2fc7-49d0-863c-c4ebf041bc83/.tests/index.test.js:49:40)\n    at Object.asyncJestTest (/tmp/e846ed10-2fc7-49d0-863c-c4ebf041bc83/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /tmp/e846ed10-2fc7-49d0-863c-c4ebf041bc83/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/tmp/e846ed10-2fc7-49d0-863c-c4ebf041bc83/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /tmp/e846ed10-2fc7-49d0-863c-c4ebf041bc83/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41&quot;
+              &quot;stack&quot;: &quot;TypeError: getDateAfterDays is not a function\n    at Object.&lt;anonymous&gt; (/tmp/830bde99-c5bb-400e-89c8-710b62895647/.tests/index.test.js:49:15)\n    at Object.asyncJestTest (/tmp/830bde99-c5bb-400e-89c8-710b62895647/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /tmp/830bde99-c5bb-400e-89c8-710b62895647/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/tmp/830bde99-c5bb-400e-89c8-710b62895647/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /tmp/830bde99-c5bb-400e-89c8-710b62895647/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41&quot;
             }
           ],
           &quot;failureMessages&quot;: [
-            &quot;Error: expect(received).toMatch(expected)\n\nExpected pattern: /^5-5-2021$|^5-05-2021$/\nReceived string:  \&quot;5 - 5 - 2021\&quot;\n    at Object.&lt;anonymous&gt; (/tmp/e846ed10-2fc7-49d0-863c-c4ebf041bc83/.tests/index.test.js:49:40)\n    at Object.asyncJestTest (/tmp/e846ed10-2fc7-49d0-863c-c4ebf041bc83/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /tmp/e846ed10-2fc7-49d0-863c-c4ebf041bc83/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/tmp/e846ed10-2fc7-49d0-863c-c4ebf041bc83/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /tmp/e846ed10-2fc7-49d0-863c-c4ebf041bc83/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41&quot;
+            &quot;TypeError: getDateAfterDays is not a function\n    at Object.&lt;anonymous&gt; (/tmp/830bde99-c5bb-400e-89c8-710b62895647/.tests/index.test.js:49:15)\n    at Object.asyncJestTest (/tmp/830bde99-c5bb-400e-89c8-710b62895647/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /tmp/830bde99-c5bb-400e-89c8-710b62895647/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/tmp/830bde99-c5bb-400e-89c8-710b62895647/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /tmp/830bde99-c5bb-400e-89c8-710b62895647/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41&quot;
           ],
           &quot;fullName&quot;: &quot;Tests for Get Date After X DaysThe Function should return the date after x days from 22nd August 2020&quot;,
           &quot;location&quot;: null,
@@ -123,7 +131,7 @@
           &quot;id&quot;: &quot;NJSCPKWIWO_TEST_3&quot;
         }
       ],
-      &quot;failureMessage&quot;: &quot;  ● :::NJSCPKWIWO_TEST_SUITE_2:::Tests for Get Date After X Days › :::NJSCPKWIWO_TEST_3:::The Function should return the date after x days from 22nd August 2020\n\n    expect(received).toMatch(expected)\n\n    Expected pattern: /^5-5-2021$|^5-05-2021$/\n    Received string:  \&quot;5 - 5 - 2021\&quot;\n\n      47 | describe(\&quot;:::NJSCPKWIWO_TEST_SUITE_2:::Tests for Get Date After X Days\&quot;, () =&gt; {\n      48 |   it(\&quot;:::NJSCPKWIWO_TEST_3:::The Function should return the date after x days from 22nd August 2020\&quot;, () =&gt; {\n    &gt; 49 |     expect(`${getDateAfterDays(256)}`).toMatch(/^5-5-2021$|^5-05-2021$/);\n         |                                        ^\n      50 |   });\n      51 | });\n      52 |\n\n      at Object.&lt;anonymous&gt; (index.test.js:49:40)\n&quot;
+      &quot;failureMessage&quot;: &quot;  ● :::NJSCPKWIWO_TEST_SUITE_1:::Tests for Get Date After X Days › :::NJSCPKWIWO_TEST_2:::A Function should be exported from the file &#x27;index.js&#x27; using the default export method\n\n    TypeError: Cannot read properties of undefined (reading &#x27;program&#x27;)\n\n      40 |   const statementsList = [];\n      41 |\n    &gt; 42 |   babelObject.program.body.map((eachStatement) =&gt;\n         |               ^\n      43 |     eachStatement.expression !== undefined &amp;&amp;\n      44 |     eachStatement.expression.type === \&quot;AssignmentExpression\&quot;\n      45 |       ? statementsList.push({\n\n      at getListOfTotalExports (utils.js:42:15)\n      at Object.&lt;anonymous&gt; (index.test.js:41:12)\n\n  ● :::NJSCPKWIWO_TEST_SUITE_2:::Tests for Get Date After X Days › :::NJSCPKWIWO_TEST_3:::The Function should return the date after x days from 22nd August 2020\n\n    TypeError: getDateAfterDays is not a function\n\n      47 | describe(\&quot;:::NJSCPKWIWO_TEST_SUITE_2:::Tests for Get Date After X Days\&quot;, () =&gt; {\n      48 |   it(\&quot;:::NJSCPKWIWO_TEST_3:::The Function should return the date after x days from 22nd August 2020\&quot;, () =&gt; {\n    &gt; 49 |     expect(`${getDateAfterDays(256)}`).toMatch(/^5-5-2021$|^5-05-2021$/);\n         |               ^\n      50 |   });\n      51 | });\n      52 |\n\n      at Object.&lt;anonymous&gt; (index.test.js:49:15)\n&quot;
     }
   ],
   &quot;wasInterrupted&quot;: false
